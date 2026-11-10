@@ -15,7 +15,7 @@ a{color:inherit;text-decoration:none}button{font:inherit;color:inherit}
 h2{font-size:clamp(2.1rem,5vw,3.8rem);line-height:1.05;letter-spacing:-.05em;margin-top:14px}
 .sh{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:40px;flex-wrap:wrap}.sh>p{max-width:420px;color:red;}
 .btn{display:inline-flex;align-items:center;gap:10px;padding:13px 20px;border-radius:8px;border:1px solid var(--ln);font-weight:600;font-size:.85rem;transition:.25s;background:none;cursor:pointer}
-.btn.pr{background:linear-gradient(110deg,var(--p),var(--b));color:#080810;border:0}
+.btn.pr{background:linear-gradient(110deg,var(--p),var(--b));color:red;border:0}
 .btn:hover{transform:translateY(-3px);}
 /* nav */
 header{position:fixed;top:0;left:0;right:0;z-index:50;background:var(--nv);backdrop-filter:blur(16px);border-bottom:1px solid transparent;padding-top:env(safe-area-inset-top,0px);transition:.3s}
