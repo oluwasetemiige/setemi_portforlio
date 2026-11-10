@@ -23,7 +23,7 @@ header.sc{border-color:var(--ln)}
 nav{height:70px;display:flex;align-items:center;justify-content:space-between;gap:16px}
 .brand{font-weight:700;letter-spacing:.17em;font-size:1.2rem}.brand span{color:var(--p)}
 .nl{display:flex;gap:24px;font-size:.68rem;letter-spacing:.08em;align-items:center}
-.nl a{color:var(--mu);position:relative;padding:4px 0;transition:.2s}.nl a::after{content:"";position:absolute;left:0;bottom:-2px;height:1px;width:0;background:var(--b);transition:width .25s}
+.nl a{color:red;position:relative;padding:4px 0;transition:.2s}.nl a::after{content:"";position:absolute;left:0;bottom:-2px;height:1px;width:0;background:var(--b);transition:width .25s}
 .nl a:hover,.nl a.on{color:var(--tx)}.nl a:hover::after,.nl a.on::after{width:100%}
 .ib{border:1px solid var(--ln);background:none;width:36px;height:36px;border-radius:8px;cursor:pointer}
 #bg{display:none}
