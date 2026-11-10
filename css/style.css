@@ -65,7 +65,7 @@ h1{font-size:clamp(4rem,12vw,5.4rem);letter-spacing:-.08em;line-height:.88}
 .cd::before{content:"";position:absolute;inset:0;background:radial-gradient(260px circle at var(--mx,50%) var(--my,0),rgba(139,92,246,.2),transparent 70%);opacity:0;transition:.3s}
 .cd:hover{transform:translateY(-5px);border-color:rgba(16, 177, 236, 0.6)}
 .cd>*{position:relative}.cd .n{font:.66rem "DM Mono",monospace;color:var(--b)}.cd h3{font-size:1.2rem;margin:20px 0 8px}.cd p{font-size:.88rem;color:var(--mu);line-height:1.75}
-.cd .mr{display:block;margin-top:14px;font:.68rem "DM Mono",monospace;color:var(--p)}
+.cd .mr{display:block;margin-top:14px;font:.68rem "DM Mono",monospace;color:red}
 /* skills */
 .sk{display:grid;grid-template-columns:1fr 1fr;gap:14px}.sg{padding:26px;border:1px solid var(--ln);border-radius:10px;background:var(--sf)}
 .sg h3{font-size:1rem}.sg>p{font-size:.8rem;color:var(--mu);margin:6px 0 16px}
