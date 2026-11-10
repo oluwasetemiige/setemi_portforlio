@@ -8,7 +8,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(ellipse at 8% 55%,rgba(56,189,248,.08),transparent 32%)}
 a{color:inherit;text-decoration:none}button{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--b);outline-offset:3px}
-.c{width:min(1140px,calc(100% - 48px));margin:auto; background: grey;}
+.c{width:min(1140px,calc(100% - 48px));margin:auto}
 .s{padding:100px 0}.mono,.ey,.nl,.tag{font-family:"DM Mono",monospace}
 .ey{font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;color:green;display:flex;align-items:center;gap:12px}
 .ey::before{content:"";width:0px;height:0px;background:currentColor}
