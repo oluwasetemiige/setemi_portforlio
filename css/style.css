@@ -36,7 +36,7 @@ nav{height:70px;display:flex;align-items:center;justify-content:space-between;ga
 .av{display:inline-flex;align-items:center;gap:9px;padding:7px 13px;border:1px solid var(--ln);border-radius:99px;color:var(--mu);font:.67rem "DM Mono",monospace;margin-bottom:26px}
 .pu{width:7px;height:7px;background:#8BAF9A;border-radius:50%;box-shadow:0 0 0 5px rgba(139,175,154,.15);animation:pl 2s infinite}
 @keyframes pl{50%{box-shadow:0 0 0 9px rgba(139,175,154,0)}}
-h1{font-size:clamp(4rem,12vw,8.4rem);letter-spacing:-.08em;line-height:.88}
+h1{font-size:clamp(3rem,8vw,5.4rem);letter-spacing:-.08em;line-height:.88}
 .role{font-size:clamp(1.1rem,2vw,1.5rem);margin:24px 0 12px}
 .hc{color:var(--mu);max-width:560px;line-height:1.85}.q{color:var(--tx);margin-bottom:10px}
 .ha{display:flex;gap:13px;flex-wrap:wrap;margin-top:28px}
