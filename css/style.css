@@ -47,7 +47,7 @@ h1{font-size:clamp(4rem,12vw,8.4rem);letter-spacing:-.08em;line-height:.88}
 .orb::before,.orb::after{content:"";position:absolute;border:1px solid rgba(139,175,154,.25);border-radius:50%;inset:34px}.orb::after{inset:76px;border-style:dashed}
 .orb i{position:absolute;width:9px;height:9px;border-radius:50%;background:var(--b);top:46px;left:52px;box-shadow:0 0 22px var(--b)}
 @keyframes sp{to{transform:rotate(360deg)}}
-.pf{width:200px;height:200px;border-radius:34%;position:relative;overflow:hidden;display:grid;place-items:center;font-size:7rem;font-weight:700;background:linear-gradient(145deg,rgba(36,92,70,.3),rgba(139,175,154,.1));border:1px solid rgba(190,170,255,.4);box-shadow:0 0 90px rgba(120,90,220,.25);transform:rotate(-6deg);transition:transform .5s}
+.pf{width:250px;height:250px;border-radius:34%;position:relative;overflow:hidden;display:grid;place-items:center;font-size:7rem;font-weight:700;background:linear-gradient(145deg,rgba(36,92,70,.3),rgba(139,175,154,.1));border:1px solid rgba(190,170,255,.4);box-shadow:0 0 90px rgba(120,90,220,.25);transform:rotate(-6deg);transition:transform .5s}
 .pf:hover{transform:rotate(0)}.pf img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .fl{position:absolute;font:.66rem "DM Mono",monospace;color:var(--mu);padding:9px 12px;border:1px solid var(--ln);background:var(--nv);border-radius:6px;animation:fy 6s ease-in-out infinite}
 .f1{top:60px;right:0}.f2{bottom:80px;left:0;animation-delay:-2s}.f3{bottom:20px;right:20px;color:var(--b);animation-delay:-4s}
